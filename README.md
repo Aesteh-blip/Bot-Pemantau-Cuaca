@@ -1,8 +1,8 @@
-# 🌦️ Bot Pemantau Cuaca
+# Bot Pemantau Cuaca
 
 Bot Python yang memantau parameter iklim dan cuaca ekstrem secara real time melalui API cuaca, lalu mengirim peringatan otomatis ke Discord setiap 15 menit jika terdeteksi kondisi berbahaya.
 
-## 📖 Deskripsi Proyek
+## Deskripsi Proyek
 
 ### Tujuan
 
@@ -10,7 +10,7 @@ Perubahan iklim membuat cuaca ekstrem semakin sering dan sulit ditebak: suhu yan
 
 Proyek ini bertujuan membuat pemantauan tersebut **otomatis dan proaktif**. Bot yang berjalan di latar belakang akan mengecek kondisi cuaca secara berkala dan langsung memberi tahu lewat Discord ketika ada parameter yang melewati ambang batas, lengkap dengan tips yang sesuai dengan jenis cuacanya.
 
-## ⚙️ Fungsi dan Fitur
+## Fungsi dan Fitur
 
 ### 1. Pemantauan Cuaca Real Time
 Bot mengambil data cuaca terbaru dari [Open-Meteo API](https://open-meteo.com/) untuk lokasi yang dipilih, sehingga data selalu mutakhir tanpa perlu input manual.
@@ -36,13 +36,10 @@ Peringatan dikirim melalui **Discord Webhook** ke channel yang Anda tentukan. Pe
 ### 5. Tips Sesuai Jenis Cuaca
 Setiap peringatan menyertakan tips praktis, misalnya minum cukup air saat suhu tinggi, memakai tabir surya dan topi saat UV tinggi, atau menyiapkan payung dan waspada genangan saat hujan lebat.
 
-### 6. Cooldown Anti-Spam
-Setiap jenis peringatan (suhu, UV, hujan) memiliki **cooldown 180 menit**. Jika kondisi ekstrem berlangsung lama, channel Anda tidak dibanjiri pesan yang sama setiap 15 menit.
-
-### 7. Konfigurasi Aman
+### 6. Konfigurasi Aman
 Webhook Discord disimpan di file `.env` (dibaca dengan `python-dotenv`) sehingga tidak ikut terunggah ke GitHub.
 
-## 🛠️ Teknologi
+## Teknologi
 
 - Python 3
 - [Open-Meteo API](https://open-meteo.com/) (data cuaca)
@@ -51,11 +48,11 @@ Webhook Discord disimpan di file `.env` (dibaca dengan `python-dotenv`) sehingga
 - [`python-dotenv`](https://pypi.org/project/python-dotenv/) (variabel lingkungan)
 - Discord Webhook (pengiriman notifikasi)
 
-## 🚀 Cara Menggunakan
+## Cara Menggunakan
 
 ### 1. Unduh proyek
 ```bash
-git clone https://github.com/Aesteh/Bot-Pemantau-Cuaca.git
+git clone https://github.com/username-github/Bot-Pemantau-Cuaca.git
 cd Bot-Pemantau-Cuaca
 ```
 Atau unduh sebagai ZIP lewat tombol **Code → Download ZIP** di GitHub.
@@ -81,7 +78,7 @@ python bot.py
 ```
 Biarkan program tetap berjalan. Bot akan mengecek cuaca setiap 15 menit dan mengirim peringatan ke Discord bila ada kondisi ekstrem.
 
-## 📚 Referensi
+## Referensi
 
 - [Open-Meteo: Weather Forecast API](https://open-meteo.com/en/docs)
 - [BMKG: Badan Meteorologi, Klimatologi, dan Geofisika](https://www.bmkg.go.id/)
