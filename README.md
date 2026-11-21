@@ -55,7 +55,7 @@ Webhook Discord disimpan di file `.env` (dibaca dengan `python-dotenv`) sehingga
 
 ### 1. Unduh proyek
 ```bash
-git clone https://github.com/erueru/Bot-Pemantau-Cuaca.git
+git clone https://github.com/Aesteh/Bot-Pemantau-Cuaca.git
 cd Bot-Pemantau-Cuaca
 ```
 Atau unduh sebagai ZIP lewat tombol **Code → Download ZIP** di GitHub.
